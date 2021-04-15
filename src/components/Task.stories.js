@@ -1,8 +1,9 @@
+/* eslint import/no-anonymous-default-export: [2, {"allowObject": true}] */
 import React from 'react'
 
 import Task from './Task'
 
-const TaskToExport = {
+export default {
   component: Task,
   title: 'Task',
 }
@@ -34,5 +35,3 @@ Archived.args = {
     state: 'TASK_ARCHIVED',
   },
 }
-
-export default TaskToExport
